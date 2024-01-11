@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Home.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <!--ハンバーガー-->
+
+        <div class="hamburger-menu">
+            <!--   ボタンが押されたかどうかをチェックボックスで判断する -->
+            <input type="checkbox" id="menu-btn-check">
+            <!--     ハンバーガーボタン -->
+            <label for="menu-btn-check" class="menu-btn"><span></span></label>
+            <!--ロゴ-->
+            <div class="logo">
+                <a href="index.html"><img src="./Picture/Logo.png"></a></a>
+            </div>
+            <!--メニューバーのリスト-->
+            <nav>
+
+                <ul class="menu_bar">
+                    <li class="menu_list"><a href="./Profile/profile.html">Profile</a></li>
+                    <li class="menu_list"><a href="./Live/profile.html">Live</a></li>
+                    <li class="menu_list"><a href="./History/History.html">History</a></li>
+                    <li class="menu_list"><a href="./Softwere/Softwere.html">Softwere</a></li>
+                    <li class="menu_list"><a href="./Product/Product.html">Product</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+
+    <!--最新情報-->
+    <div class="mid">
+        <div id="top_info">
+            <p class="topic_header">Topic</p>
+
+            <div id="slide" class="slide">
+                <div>
+                    <p>20xx.xx.xx</p>
+                    <p>トピック1</p>
+                </div>
+                <div>
+                    <p>20xx.xx.xx</p>
+                    <p>トピック2</p>
+                </div>
+                <div>
+                    <p>20xx.xx.xx</p>
+                    <p>トピック3</p>
+                </div>
+            </div>
+
+            <!--左右ボタン-->
+            <span id="prev" class="prev"></span>
+            <span id="next" class="next"></span>
+            <!--インジケーター-->
+            <ul id="indicator" class="indicator">
+                <li class="in_list"></li>
+                <li class="in_list"></li>
+                <li class="in_list"></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--背景-->
+    <div class="back_ground">
+        <img src="./Picture/背景1.png">
+    </div>
+
+    <script src="Home.js"></script>
+
+</body>
+
+</html>
