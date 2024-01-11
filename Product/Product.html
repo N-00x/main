@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Product.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <!--ハンバーガー-->
+
+        <div class="hamburger-menu">
+            <!--   ボタンが押されたかどうかをチェックボックスで判断する -->
+            <input type="checkbox" id="menu-btn-check">
+            <!--     ハンバーガーボタン -->
+            <label for="menu-btn-check" class="menu-btn"><span></span></label>
+            <!--ロゴ-->
+            <div class="logo">
+                <a href="../Home.html"><img src="../Picture/Logo.png"></a></a>
+            </div>
+            <!--メニューバーのリスト-->
+            <nav>
+
+                <ul class="menu_bar">
+                    <li class="menu_list"><a href="../Profile/profile.html">Profile</a></li>
+                    <li class="menu_list"><a href="../Live/Live.html">Live</a></li>
+                    <li class="menu_list"><a href="../History/History.html">History</a></li>
+                    <li class="menu_list"><a href="../Softwere/Softwere.html">Softwere</a></li>
+                    <li class="menu_list"><a href="../Product/Product.html">Product</a></li>
+                </ul>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <article>
+        <h1>Product</h1>
+        <p>制作物</p>
+
+
+        <div class="carousel">
+
+            <section class="text">
+                <h2>ClipStudio Paint for iPad</h2>
+                <p>趣味で描いたイラスト達</p>
+            </section>
+            <div class="contains">
+                <!-- スライド用ラジオ -->
+                <input class="slide_select" type="radio" id="Slide_A" name="slide_check" checked />
+                <input class="slide_select" type="radio" id="Slide_B" name="slide_check" />
+                <input class="slide_select" type="radio" id="Slide_C" name="slide_check" />
+                <input class="slide_select" type="radio" id="Slide_D" name="slide_check" />
+                <input class="slide_select" type="radio" id="Slide_E" name="slide_check" />
+                <input class="slide_select" type="radio" id="Slide_F" name="slide_check" />
+
+                <!-- スライド -->
+                <!-- 1番目 -->
+                <div class="slide">
+                    <div class="scroll_controler">
+                        <label class="scroll_botton scroll_prev" for="Slide_F"></label>
+                        <label class="scroll_botton scroll_next" for="Slide_B"></label>
+                    </div>
+                    <img src="../Picture/イラスト/2023_臨也生誕3.png">
+                </div>
+
+                <!-- 2番目 -->
+                <div class="slide">
+                    <div class="scroll_controler">
+                        <label class="scroll_botton scroll_prev" for="Slide_A"></label>
+                        <label class="scroll_botton scroll_next" for="Slide_C"></label>
+                    </div>
+                    <img src="../Picture/イラスト/76906802_p0.jpg">
+                </div>
+                <!-- 3番目 -->
+                <div class="slide">
+                    <div class="scroll_controler">
+                        <label class="scroll_botton scroll_prev" for="Slide_B"></label>
+                        <label class="scroll_botton scroll_next" for="Slide_D"></label>
+                    </div>
+                    <img src="../Picture/イラスト/写真 2018-04-06 12 15 21.jpg">
+                </div>
+                <!-- 4番目 -->
+                <div class="slide">
+                    <div class="scroll_controler">
+                        <label class="scroll_botton scroll_prev" for="Slide_C"></label>
+                        <label class="scroll_botton scroll_next" for="Slide_E"></label>
+                    </div>
+                    <img src="../Picture/イラスト/写真 2020-03-28 23 12 53.png">
+                </div>
+
+                <!-- 5番目 -->
+                <div class="slide">
+                    <div class="scroll_controler">
+                        <label class="scroll_botton scroll_prev" for="Slide_D"></label>
+                        <label class="scroll_botton scroll_next" for="Slide_F"></label>
+                    </div>
+                    <img src="../Picture/イラスト/写真 2020-07-31 9 34 09.png">
+                </div>
+                <!-- 6番目 -->
+                <div class="slide">
+                    <div class="scroll_controler">
+                        <label class="scroll_botton scroll_prev" for="Slide_E"></label>
+                        <label class="scroll_botton scroll_next" for="Slide_A"></label>
+                    </div>
+                    <img src="../Picture/イラスト/写真 2022-03-14 0 29 59.png">
+                </div>
+                <!-- スライド移動ボタン -->
+                <label class="move_botton" for="Slide_A"></label>
+                <label class="move_botton" for="Slide_B"></label>
+                <label class="move_botton" for="Slide_C"></label>
+                <label class="move_botton" for="Slide_D"></label>
+                <label class="move_botton" for="Slide_E"></label>
+                <label class="move_botton" for="Slide_F"></label>
+            </div>
+
+        </div>
+
+        <div class="carousel">
+
+            <section class="text">
+                <h2>Photshop</h2>
+                <p>合成写真など</p>
+            </section>
+            <div class="contains">
+                <!-- スライド用ラジオ -->
+                <input class="slide_select" type="radio" id="S_A" name="S_check" checked />
+                <input class="slide_select" type="radio" id="S_B" name="S_check" />
+                <input class="slide_select" type="radio" id="S_C" name="S_check" />
+
+                <!-- 1番目 -->
+                <div class="slide">
+                    <div class="scroll_controler">
+                        <label class="scroll_botton scroll_prev" for="S_C"></label>
+                        <label class="scroll_botton scroll_next" for="S_B"></label>
+                    </div>
+                    <img src="../Picture/合成２.png">
+                </div>
+                <!-- 2番目 -->
+                <div class="slide">
+                    <div class="scroll_controler">
+                        <label class="scroll_botton scroll_prev" for="S_A"></label>
+                        <label class="scroll_botton scroll_next" for="S_C"></label>
+                    </div>
+                    <img src="../Picture/marilyn.png">
+                </div>
+                <!-- 2番目 -->
+                <div class="slide">
+                    <div class="scroll_controler">
+                        <label class="scroll_botton scroll_prev" for="S_B"></label>
+                        <label class="scroll_botton scroll_next" for="S_A"></label>
+                    </div>
+                    <img src="../Picture/合成.png">
+                </div>
+
+                <label class="move_botton" for="S_A"></label>
+                <label class="move_botton" for="S_B"></label>
+                <label class="move_botton" for="S_C"></label>
+
+
+            </div>
+        </div>
+
+        <div class="carousel">
+
+            <section class="text">
+                <h2>illustrator</h2>
+                <p>3D練習や、素材用に制作したもの。</p>
+            </section>
+            <div class="contains">
+                <!-- スライド用ラジオ -->
+                <input class="slide_select" type="radio" id="S_D" name="S_check2" checked />
+                <input class="slide_select" type="radio" id="S_E" name="S_check2" />
+                <input class="slide_select" type="radio" id="S_F" name="S_check2" />
+
+                <!-- 1番目 -->
+                <div class="slide">
+                    <div class="scroll_controler">
+                        <label class="scroll_botton scroll_prev" for="S_F"></label>
+                        <label class="scroll_botton scroll_next" for="S_E"></label>
+                    </div>
+                    <img src="../Picture/halloween.jpg">
+                </div>
+                <!-- 2番目 -->
+                <div class="slide">
+                    <div class="scroll_controler">
+                        <label class="scroll_botton scroll_prev" for="S_D"></label>
+                        <label class="scroll_botton scroll_next" for="S_F"></label>
+                    </div>
+                    <img src="../Picture/Logo_ic.png">
+                </div>
+                <!-- 3番目 -->
+                <div class="slide">
+                    <div class="scroll_controler">
+                        <label class="scroll_botton scroll_prev" for="S_E"></label>
+                        <label class="scroll_botton scroll_next" for="S_D"></label>
+                    </div>
+                    <img src="../Picture/アートワーク2_3b963881-89b5-4c48-aa5e-280e29849a36.jpg">
+                </div>
+
+                <label class="move_botton" for="S_A"></label>
+                <label class="move_botton" for="S_B"></label>
+                <label class="move_botton" for="S_C"></label>
+
+
+            </div>
+        </div>
+        <div class="box_m">
+            <section class="text">
+                <h2>Movie</h2>
+                <p>Premire pro・AfterEfect・Instagramのリール機能で作ったショート動画。</p>
+            </section>
+            <div class="mov">
+                <iframe src="https://www.youtube.com/embed/K9aprYZTRcg?si=oO2FpfTK_33R5pN1" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/SjGt-RXvxpE" title="Sample_Movie01" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="box_m">
+            <section class="text">
+                <h2>Excel</h2>
+                <p>趣味で作っている2023年のF1レースデータ。<br>
+                    ※作成途中 </p>
+            </section>
+            <iframe src="https://1drv.ms/x/s!AlYJ9XuBndRFgYo6xS6hVRt9c7qQ8g"></iframe>
+
+        </div>
+
+        <div class="box_m">
+            <section class="text">
+                <h2>HTML/CSS/JS</h2>
+                <p>職業訓練所での制作物</p>
+            </section>
+            <a href="https://n-00x.github.io/portfolio/"><img src="../Picture/スクリーンショット 2024-01-04 005329.png">
+            </a>
+        </div>
+    </article>
+    <script src="../Home.js"></script>
+
+</body>
+
+</html>
